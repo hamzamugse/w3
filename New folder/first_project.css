@@ -1,0 +1,1676 @@
+.header-1 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+    z-index: 100;
+}
+
+.flex-box-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+}
+
+.logo-image {
+    width: 40px;
+    height: 40px;
+    margin-top: 2px;
+    margin-left: 18px;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.details {
+    width: 7px;
+    height: 5px;
+    margin-top: 4px;
+    margin-left: 3px;
+}
+
+.details:hover {
+    background-color: rgb(4, 170, 109);
+}
+
+.div-header-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: -5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+
+.div-header-1:hover {
+    background-color: rgb(4, 170, 109);
+    color: white;
+}
+
+.tutorials {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    padding-top: 2px;
+}
+
+.arrow-button {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.arrow {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid black;
+    transition: transform ease, border-top-color ease;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+.arrow-button:hover .arrow {
+    border-top-color: white;
+}
+
+.search-div {
+    width: 100px;
+    margin-left: 12px;
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+    top: 5px;
+    left: 127px;
+    bottom: 15px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    z-index: 500;
+    margin-top: 1px;
+}
+
+.ground {
+    background-color: white;
+    border: solid;
+    padding-left: 7px;
+    padding-right: 9px;
+    padding-top: 3px;
+    padding-bottom: 4px;
+    border-radius: 20px;
+    margin-top: -4px;
+    margin-left: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.ground:hover {
+    background-color: rgb(236, 236, 236);
+}
+
+.search {
+    z-index: 50;
+    width: 120px;
+    height: 33px;
+    padding-right: 40px;
+    padding-left: 15px;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    font-style: italic;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.search:focus {
+    border-color: rgb(5, 203, 131);
+    border-style: solid;
+    border-width: 2.5px;
+}
+
+.search-icon {
+    height: 23px;
+    width: 18px;
+    z-index: 100;
+}
+
+.circle {
+    display: grid;
+    grid-template-columns: 6px 1fr;
+    z-index: 600;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 95px;
+}
+
+.blur {
+    width: 33px;
+    height: 33px;
+    z-index: 500;
+    margin-left: -25px;
+    border-radius: 33px;
+    margin-right: 70px;
+    border: none;
+    cursor: pointer;
+    background-color: white;
+}
+
+.blur:hover {
+    background-color: rgb(235, 234, 234);
+}
+
+.plus {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85px;
+    border-radius: 50px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.plus:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.plus-2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 127px;
+    border-radius: 50px;
+    height: 40px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.plus-2:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.plus-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 163px;
+    border-radius: 50px;
+    height: 40px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.plus-3:hover {
+    background-color: rgb(241, 241, 241);
+}
+
+.plus-para {
+    font-family: Source Sans Pro;
+    display: inline-block;
+}
+
+.log-in {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 125px;
+    border-radius: 100px;
+    height: 40px;
+    z-index: 100;
+    justify-content: right;
+    background-color: rgb(217, 238, 225);
+    position: relative;
+}
+
+.log-in-para {
+    font-family: Source Sans Pro;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.log-in:hover {
+    background-color: rgb(1, 146, 93);
+    color: white;
+    cursor: pointer;
+}
+
+.first-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(4, 170, 109);
+    color: white;
+    z-index: 200;
+    right: 105px;
+    height: 40px;
+    width: 95px;
+    margin-right: -20px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.first-div:hover {
+    background-color: rgb(2, 149, 96);
+    ;
+}
+
+.second-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 100;
+    left: 0px;
+    right: 0px;
+    top: 53px;
+    bottom: 550px;
+    background-color: rgb(40, 42, 53);
+    padding-left: -5px;
+}
+
+.text-header {
+    font-family: Source Sans Pro;
+    color: rgb(241, 241, 241);
+    font-size: 15px;
+    padding: 8px;
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text-header:hover {
+    background-color: rgb(0, 0, 0);
+}
+
+.text-div {
+    cursor: pointer;
+    flex: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.background-space-image {
+    margin-top: 83px;
+    margin-left: -8px;
+    width: 1360px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    z-index: 10;
+}
+
+.astronaut {
+    position: absolute;
+    z-index: 20;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-left: 1070px;
+    margin-top: -310px;
+}
+
+.learn-code {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 65px;
+    font-weight: 700;
+    font-stretch: ultra-expanded;
+    text-size-adjust: 100%;
+    margin-bottom: 0px;
+    word-spacing: 5px;
+}
+
+.largest-developer {
+    color: rgb(255, 244, 163);
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    font-weight: 700;
+    word-spacing: 2px;
+}
+
+.search-tutorials {
+    width: 470px;
+    height: 47.5px;
+    border: none;
+    border-radius: 25px;
+    position: relative;
+    z-index: 40;
+    color: rgb(40, 42, 53);
+    font-size: 16px;
+    font-family: Source Sans Pro;
+    font-weight: 900;
+    padding-left: 30px;
+    margin-top: 17px;
+}
+
+.search-tutorials:focus,
+input:focus {
+    outline: none;
+}
+
+.flex-search {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search-button-2 {
+    position: absolute;
+    z-index: 50;
+    right: 414px;
+    border-radius: 0 100em 100em 0;
+    width: 100px;
+    height: 50.5px;
+    border: none;
+    background-color: rgb(4, 170, 109);
+    margin-top: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.search-button-2:hover {
+    background-color: rgb(4, 151, 97);
+}
+
+.not-sure {
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    font-weight: 700;
+    text-decoration: underline;
+    word-spacing: 1px;
+    margin-top: 28px;
+    transition: color 0.15s;
+    cursor: pointer;
+}
+
+.not-sure:hover {
+    color: rgb(255, 244, 163);
+}
+
+.wave {
+    width: 1360px;
+    margin-top: 96px;
+    margin-left: -8px;
+}
+
+.wave-part-2 {
+    position: relative;
+    width: 1360px;
+    height: 520px;
+    background-color: rgb(217, 238, 225);
+    margin-top: -5px;
+    margin-left: -8px;
+}
+
+.html-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 280px;
+    top: 40px;
+}
+
+.html-para {
+    font-family: Arial;
+    font-size: 90px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.language {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    word-spacing: 2px;
+}
+
+.learn-html {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 190px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.learn-html:hover {
+    background-color: rgb(2, 149, 95);
+}
+
+.video-tutorial {
+    background-color: rgb(255, 244, 163);
+    color: black;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 190px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.video-tutorial:hover {
+    background-color: rgb(255, 241, 134);
+    ;
+}
+
+.html-reference {
+    background-color: rgb(40, 42, 53);
+    color: white;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 16px;
+    width: 190px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.html-reference:hover {
+    background-color: rgb(9, 9, 11);
+}
+
+.get-certified {
+    background-color: rgb(255, 192, 199);
+    color: black;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    width: 190px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.get-certified:hover {
+    background-color: rgb(252, 175, 184);
+    ;
+}
+
+.whole-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(231, 233, 235);
+    box-shadow: 0px 1px 5px gray;
+    border-radius: 5px;
+    width: 430px;
+    height: 430px;
+    position: absolute;
+    right: 270px;
+    top: 30px;
+}
+
+.second-whole-div {
+    width: 390px;
+    height: 300px;
+    background-color: white;
+    margin-left: 20px;
+    border-left-color: rgb(4, 170, 109);
+    border-left-width: 5px;
+    border-left-style: solid;
+}
+
+.html-example {
+    font-family: Source Sans Pro;
+    font-size: 23px;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.try-yourself {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    border: none;
+    border-radius: 60px;
+    width: 200px;
+    height: 40px;
+    font-family: Source Sans Pro;
+    font-weight: 700;
+    font-size: 15px;
+    word-spacing: 1px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.try-yourself:hover {
+    background-color: rgb(0, 147, 93);
+}
+
+.all-para {
+    color: rgb(0, 0, 205);
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-left: 13px;
+}
+
+.different {
+    color: rgb(165, 42, 42);
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin-bottom: 0px;
+}
+
+.heading {
+    color: black;
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.first {
+    color: black;
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin-top: 25px;
+}
+
+.second {
+    color: black;
+    font-family: Consolas, Menlo, "courier new", monospace;
+    margin-bottom: 25px;
+}
+
+.background-2 {
+    background-color: rgb(255, 244, 163);
+    position: relative;
+    width: 1360px;
+    height: 560px;
+    left: -8px;
+}
+
+.background-3 {
+    background-color: rgb(40, 42, 53);
+    position: relative;
+    width: 1360px;
+    height: 560px;
+    left: -8px;
+}
+
+.java-reference {
+    background-color: white;
+    color: black;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 16px;
+    width: 190px;
+    height: 42px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.java-reference:hover {
+    background-color: rgb(222, 222, 222);
+}
+
+.background-4 {
+    background-color: rgb(243, 236, 234);
+    position: relative;
+    width: 1360px;
+    height: 520px;
+    left: -8px;
+}
+
+.background-5 {
+    background-color: rgb(150, 212, 212);
+    position: relative;
+    width: 1360px;
+    height: 500px;
+    left: -8px;
+}
+
+.background-6 {
+    background-color: rgb(40, 42, 53);
+    position: relative;
+    width: 1360px;
+    height: 4880px;
+    left: -8px;
+}
+
+.button-1-background {
+    background-color: rgb(255, 192, 199);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.button-2-background {
+    background-color: rgb(255, 244, 163);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.button-3-background {
+    background-color: rgb(243, 236, 234);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.button-4-background {
+    background-color: rgb(217, 238, 225);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.button-5-background {
+    background-color: rgb(150, 212, 212);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.button-6-background {
+    background-color: rgb(231, 233, 235);
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.flex-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.php {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.web-server {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: rgb(58, 58, 58);
+}
+
+.button-7-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 140px;
+    border-radius: 8px;
+    background-color: rgb(255, 192, 199);
+    cursor: pointer;
+}
+
+.button-7-background:hover {
+    background-color: rgb(250, 177, 185);
+}
+
+.button-8-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 140px;
+    border-radius: 8px;
+    background-color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.button-8-background:hover {
+    background-color: rgb(255, 242, 141);
+}
+
+.c {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.mini-background-1 {
+    background-color: rgb(218, 217, 217);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-1:hover {
+    background-color: rgb(236, 235, 235);
+}
+
+.all-mini-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.mini-para {
+    font-family: Source Sans Pro;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.mini-background-2 {
+    background-color: rgb(184, 210, 193);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-2:hover {
+    background-color: rgb(208, 228, 215);
+}
+
+.mini-background-3 {
+    background-color: rgb(150, 212, 212);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-3:hover {
+    background-color: rgb(159, 225, 225);
+}
+
+.mini-background-4 {
+    background-color: rgb(255, 192, 199);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-4:hover {
+    background-color: rgb(252, 207, 207);
+}
+
+.mini-background-5 {
+    background-color: rgb(252, 240, 153);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-5:hover {
+    background-color: rgb(255, 247, 187);
+}
+
+.mini-background-6 {
+    background-color: rgb(228, 219, 217);
+    width: 250px;
+    height: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mini-background-6:hover {
+    background-color: rgb(240, 232, 229);
+}
+
+.button-9-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(150, 212, 212);
+    cursor: pointer;
+}
+
+.button-9-background:hover {
+    background-color: rgb(169, 239, 239);
+}
+
+.button-10-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(237, 226, 144);
+    cursor: pointer;
+}
+
+.button-10-background:hover {
+    background-color: rgb(255, 245, 168);
+}
+
+.button-11-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(255, 176, 185);
+    cursor: pointer;
+}
+
+.button-11-background:hover {
+    background-color: rgb(253, 190, 198);
+}
+
+.button-12-background {
+    box-shadow: 0px 1px 5px rgb(0, 0, 0);
+    width: 590px;
+    height: 120px;
+    border-radius: 8px;
+    background-color: rgb(223, 215, 213);
+    cursor: pointer;
+}
+
+.button-12-background:hover {
+    background-color: rgb(243, 236, 234);
+}
+
+.code-editor {
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 60px;
+}
+
+.online-code {
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 20px;
+}
+
+.button-responsive {
+    position: absolute;
+    top: 3370px;
+    left: 210px;
+    display: flex;
+}
+
+.responsive {
+    margin-top: 108.9px;
+    margin-left: 1px;
+    border-radius: 0 0.3em 0.3em 0.3em;
+}
+
+.button-style {
+    background-color: rgb(231, 233, 235);
+    border: none;
+    padding: 10px;
+    margin-bottom: -36px;
+    margin-left: -0px;
+    vertical-align: bottom;
+    font-family: Source Sans Pro;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button-style:hover {
+    background-color: rgb(218, 217, 217);
+}
+
+.colors {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.www {
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    margin-left: 200px;
+    margin-top: -20px;
+    vertical-align: top;
+    width: 580px;
+    background-color: white;
+    color: rgb(102, 102, 102);
+    padding-left: 3px;
+}
+
+.try-frontend {
+    background-color: rgb(4, 170, 109);
+    color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 210px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.try-frontend:hover {
+    background-color: rgb(2, 143, 91);
+}
+
+.try-backend {
+    background-color: rgb(255, 244, 163);
+    color: black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 210px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 5px;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.try-backend:hover {
+    background-color: rgb(251, 235, 115);
+}
+
+.wschools {
+    color: rgb(255, 192, 199);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.wschools:hover {
+    color: rgb(4, 146, 94);
+}
+
+.learn-more {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 60px;
+    border: none;
+    border-radius: 25px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more:hover {
+    background-color: rgb(3, 143, 91);
+}
+
+.background-7 {
+    background-color: rgb(217, 238, 225);
+    position: relative;
+    width: 1360px;
+    height: 920px;
+    left: -8px;
+}
+
+.free-sign-up {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 25px;
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.free-sign-up:hover {
+    background-color: rgb(3, 143, 91);
+}
+
+.background-8 {
+    background-color: rgb(40, 42, 53);
+    position: relative;
+    width: 1360px;
+    height: 630px;
+    left: -8px;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.background-9 {
+    background-color: rgb(243, 236, 234);
+    position: relative;
+    width: 1360px;
+    height: 480px;
+    left: -8px;
+}
+
+.image-hover {
+    cursor: pointer;
+}
+
+.image-hover:hover {
+    opacity: 0.7;
+}
+
+.background-10 {
+    background-color: rgb(150, 212, 212);
+    position: relative;
+    width: 1360px;
+    height: 600px;
+    left: -8px;
+}
+
+.new-font {
+    font-family: Freckle Face;
+    font-size: 50px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 90px;
+}
+
+.cartoon-image {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.cartoon-image:hover {
+    opacity: 0.7;
+}
+
+.play-game {
+    background-color: rgb(40, 42, 53);
+    color: white;
+    font-weight: 700;
+    font-family: Arial;
+    font-size: 16px;
+    width: 200px;
+    height: 52px;
+    border: none;
+    border-radius: 50px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+.play-game:hover {
+    background-color: rgb(9, 9, 11);
+}
+
+.background-11 {
+    background-color: rgb(40, 42, 53);
+    position: relative;
+    width: 1360px;
+    height: 570px;
+    left: -8px;
+}
+
+.exercises {
+    background-color: rgb(4, 170, 109);
+    color: white;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    font-size: 35px;
+    width: 550px;
+    height: 190px;
+    border: none;
+    border-radius: 5px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.exercises:hover {
+    background-color: rgb(2, 149, 95);
+}
+
+.quizzes {
+    background-color: rgb(255, 244, 163);
+    color: black;
+    font-weight: 700;
+    font-family: Source Sans Pro;
+    font-size: 35px;
+    width: 550px;
+    height: 190px;
+    border: none;
+    border-radius: 5px;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    transition: background-color 0.1s;
+    cursor: pointer;
+}
+
+.quizzes:hover {
+    background-color: rgb(253, 238, 121);
+}
+
+.background-12 {
+    background-color: rgb(231, 233, 235);
+    position: relative;
+    width: 1360px;
+    height: 830px;
+    left: -8px;
+    margin-top: -15px;
+}
+
+.image-template {
+    width: 1000px;
+    height: 380px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+.background-13 {
+    background-color: rgb(40, 42, 53);
+    position: relative;
+    width: 1360px;
+    height: 530px;
+    left: -8px;
+}
+
+.round-arrow {
+    width: 230px;
+    height: 180px;
+    display: inline-block;
+    margin-left: 850px;
+    transform: rotate(10deg);
+    margin-top: -100px;
+    position: absolute;
+    z-index: 80;
+}
+
+.word-circle {
+    width: 220px;
+    height: 220px;
+    background-color: rgb(4, 170, 107);
+    border-radius: 200px;
+    position: absolute;
+    z-index: 70;
+    right: 110px;
+    bottom: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background-14 {
+    background-color: white;
+    position: relative;
+    width: 1360px;
+    height: 830px;
+    left: -8px;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+text {
+    font-family: Arial;
+    text-anchor: middle;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.last-image {
+    width: 910px;
+    height: 320px;
+}
+
+.last-image-div {
+    position: relative;
+}
+
+.caption-text {
+    position: absolute;
+    width: 100px;
+    bottom: 8px;
+    left: 410px;
+    font-family: Source Sans Pro;
+    color: white;
+}
+
+.straight-bar {
+    background-color: rgb(40, 42, 53);
+    width: 50px;
+    height: 100px;
+}
+
+.learn-how-to {
+    background-color: rgb(40, 42, 53);
+    color: white;
+    font-family: Source Sans Pro;
+    font-size: 20px;
+    font-weight: bold;
+    width: 460px;
+    height: 63px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.learn-how-to:hover {
+    background-color: rgb(4, 160, 103);
+}
+
+.background-15 {
+    position: relative;
+    width: 1360px;
+    height: 900px;
+    left: -8px;
+}
+
+.last-logo {
+    -webkit-filter: grayscale(1000%) brightness(100%) contrast(10000%);
+    opacity: 0.9;
+    position: absolute;
+    top: 260px;
+    left: 80px;
+    width: 110px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.last-logo:hover {
+    -webkit-filter: grayscale(100%) brightness(150%) sepia(100%) hue-rotate(30deg) saturate(500%);
+    filter: grayscale(100%) brightness(150%) sepia(100%) hue-rotate(30deg) saturate(500%);
+    opacity: 0.9;
+}
+
+.spaces {
+    position: absolute;
+    top: 265px;
+    left: 200px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.spaces:hover {
+    text-decoration: underline;
+}
+
+.upgrade {
+    top: 265px;
+    left: 300px;
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.upgrade:hover {
+    text-decoration: underline;
+}
+
+.ad-free {
+    top: 265px;
+    left: 420px;
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.ad-free:hover {
+    text-decoration: underline;
+}
+
+.newsletter {
+    top: 265px;
+    left: 530px;
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.newsletter:hover {
+    text-decoration: underline;
+}
+
+.get-certified-last {
+    top: 265px;
+    left: 670px;
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.get-certified-last:hover {
+    text-decoration: underline;
+}
+
+.contact-us {
+    top: 265px;
+    left: 825px;
+    position: absolute;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(255, 244, 163);
+    cursor: pointer;
+}
+
+.contact-us:hover {
+    text-decoration: underline;
+}
+
+.top-tutorials {
+    position: absolute;
+    top: 340px;
+    left: 110px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.top-references {
+    position: absolute;
+    top: 340px;
+    left: 380px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.top-examples {
+    position: absolute;
+    top: 340px;
+    left: 655px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.get-certified-original-last {
+    position: absolute;
+    top: 340px;
+    left: 940px;
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    color: rgb(221, 221, 221);
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.get-certified-original-last:hover {
+    color: rgb(255, 244, 163);
+}
+
+.last-all {
+    position: absolute;
+    top: 385px;
+    left: 110px;
+    font-size: 12px;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.last-all:hover {
+    color: rgb(255, 244, 163);
+}
+
+.youtube-icon {
+    width: 22px;
+    height: 15px;
+    background-color: lightgray;
+    position: absolute;
+    top: 655px;
+    left: 110px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.youtube-icon:hover {
+    background-color: rgb(237, 226, 144);
+}
+
+.play-button {
+    width: 0;
+    height: 0;
+    border-left: 7px solid black;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.linkedin-icon {
+    width: 20px;
+    height: 16px;
+    background-color: lightgray;
+    position: absolute;
+    top: 655px;
+    left: 150px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.linkedin-icon:hover {
+    background-color: rgb(255, 244, 163);
+}
+
+.linkedin-logo {
+    color: rgb(40, 42, 53);
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}
+
+.discord-icon {
+    width: 22px;
+    height: 22px;
+    background-color: lightgray;
+    position: absolute;
+    top: 652px;
+    left: 185px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.discord-icon:hover {
+    background-color: rgb(251, 235, 115);
+}
+
+.discord-logo {
+    width: 15px;
+    /* Adjust size as needed */
+    height: 15px;
+}
+
+.face-icon {
+    width: 12px;
+    height: 18px;
+    /* Adjust dimensions as needed */
+    background-color: lightgray;
+    border-radius: 2px;
+    position: absolute;
+    top: 653px;
+    left: 220px;
+    /* Make it a circle */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: right;
+    padding-right: 4px;
+    padding-bottom: -4px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.face-icon:hover {
+    background-color: rgb(255, 244, 163);
+}
+
+.face-logo {
+    color: rgb(40, 42, 53);
+    font-size: 18px;
+    font-family: Source Sans Pro;
+    font-weight: bold;
+    /* Adjust size as needed */
+}
+
+.instagram-icon {
+    width: 20px;
+    /* Adjust width and height for square shape */
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 5px;
+    /* Adjust border radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 653px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.instagram-icon:hover {
+    background-color: rgb(255, 244, 163);
+}
+
+.instagram-icon svg {
+    width: 20px;
+    /* Adjust size of the SVG icon */
+    height: 20px;
+}
+
+.last-moments {
+    position: absolute;
+    top: 640px;
+    left: 290px;
+}
+
+.forum {
+    color: rgb(221, 221, 221);
+    font-family: Source Sans Pro;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forum:hover {
+    color: rgb(255, 244, 163);
+    text-decoration: underline;
+}
+
+.last-para {
+    text-align: left;
+    width: 583px;
+    font-size: 12px;
+    font-family: Source Sans Pro;
+    font-weight: 500;
+    color: rgb(221, 221, 221);
+    cursor: pointer;
+}
+
+.different-para {
+    width: 200px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.different-para:hover {
+    color: rgb(255, 244, 163);
+}
